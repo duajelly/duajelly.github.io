@@ -14,6 +14,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 
+<!-- <script>
+    var images = ['background.jpg', 'background1.jpg', 'background2.jpg'];
+    $('#background').css({'background-image': 'url(../img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+</script> -->
+
 <body>
     <div class="preloader">
         <div class="spinner">
@@ -56,7 +61,7 @@
         <div class="background-content parallax-on">
 
             <div class="background-overlay"></div>
-            <div class="background-img layer" data-depth="0.05"></div>
+            <div class="background-img layer" data-depth="0.05" id="background"></div>
 
         </div>
 

@@ -1,3 +1,7 @@
+// var images = ['background.jpg', 'background1.jpg', 'background2.jpg'];
+// $('#background').css({'background-image': 'url(../img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+
 jQuery(window).on('load', function() {
       
     
@@ -66,7 +70,7 @@ jQuery(document).ready(function($) {
     // OPEN POPUP SEQUENCE
     $(".open-popup").click(function(){
         
-        window.location.replace("https://t.me/persil_till_ege")
+        window.location.replace("https://t.me/persil_till_ege", '_blank')
         
     });
 
